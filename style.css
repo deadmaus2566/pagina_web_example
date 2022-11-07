@@ -1,0 +1,86 @@
+body{
+    width: 900px;
+    margin: 0 auto;
+}
+main{
+    width: 980px;
+    height: 680px;
+    background-color: lightblue;
+}
+header img{
+    float: right;
+}
+header h1{
+    font-size: 50px;
+    color: white;
+    text-align: center;
+}
+header{
+    height: 150px;
+    width: 980px;
+    background-color: lightgreen;
+}
+nav{
+    height: 60px;
+    width: 980px;
+    background-color: rgb(20, 180, 205);
+}
+
+nav ul li{
+    display: inline;
+    margin-left: 4em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+nav ul li:hover{
+    background-color: yellow;
+}
+footer{
+    height: 80px;
+    width: 980px;
+    background-color: #E28726;
+}
+article{
+    float: right;
+    width: 580px;
+    height: 680px;
+    background-color: blue;
+}
+article fieldset{
+    margin-top: 30px;
+}
+article form{
+    width: 500px;
+    background: #07dae18b;
+    padding: 30px;
+    margin: auto;
+    margin-top: 10px;
+    padding-bottom: 110px;
+    border-radius: 4px;
+    font-family: 'calibri';
+    color: white;
+}
+hr{
+    border-style:dashed;
+    color: #fff
+}
+label{
+    display: inline-block;
+    width: 100px;    
+}
+input{
+    margin-bottom:70px;
+    width: 300px;
+}
+aside{
+    float: left;
+    width: 400px;
+    height: 680px;
+    background-color: red;
+}
+footer h3{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
